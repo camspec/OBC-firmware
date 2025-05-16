@@ -15,6 +15,7 @@
 #define OBC_SCHEDULER_MAX_PRIORITY configMAX_PRIORITIES - 1U
 #define TASK_IDLE_PRIORITY 0U
 #define TASK_COMMS_PRIORITY 2U  // Comms tasks must have the same priority
+#define THIS_MACRO_IS_COMPLETELY_UNUSED 0U
 
 /* TYPEDEFS */
 typedef struct {
