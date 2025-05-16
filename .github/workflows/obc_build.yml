@@ -77,4 +77,4 @@ jobs:
       - name: Display CRCs
         run: |
           echo "CRC checksums:"
-          find binaries -name "*.bin" -exec cksum {} \;
+          find . -name "*.bin" -exec cksum {} \;
