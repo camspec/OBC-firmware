@@ -35,6 +35,8 @@ typedef struct {
   uint32_t taskLastCheckInTick;
 } watchdog_task_info_t;
 
+static int unused = 35;
+
 static watchdog_task_info_t watchdogTaskArray[] = {
     [OBC_SCHEDULER_CONFIG_ID_STATE_MGR] =
         {
